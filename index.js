@@ -17,7 +17,11 @@ function deepestChild(){
   let next = []
   let criteriaFN = n => n > 5
   
-  
+   while (current) {
+    if (criteriaFn(current)) {
+      return current
+    }
+    
   
   
 }
