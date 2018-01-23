@@ -12,23 +12,13 @@ function increaseRankBy(n) {
   }
 }
 
-function deepestChild(){
-  let current = document.getElementById('grand-node')
-  let next = []
-  let criteriaFN = n => n > 5
-  
-   while (current) {
-    if (criteriaFn(current)) {
-      return current
-    }
-     if (Array.isArray(current)) {
-      for (let i = 0; i < current.length; i++) {
-        next.push(current[i])
-      }
-    }
-      current = next.shift()
+function deepestChild() {
+  var lis=document.getElementById("grand-node").querySelectorAll("div");
+  var test;
+  for(let i=0;i<lis.length-1;i++) {
+    test=lis[i].querySelector("div");
   }
-    return null
+return test;
 }
 
 
