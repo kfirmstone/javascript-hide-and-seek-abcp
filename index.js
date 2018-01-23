@@ -1,3 +1,3 @@
 function getFirstSelector(selector){
-  document.GetElementsByClassName
+  document.getElementsByClassName(selector)
 }
